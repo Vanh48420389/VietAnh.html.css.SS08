@@ -1,0 +1,52 @@
+*{
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 20px;
+    display: block;
+    width: 500px;
+    position: relative;
+    
+    
+}
+section{
+    display: flex;
+    border-radius:5px ;
+    padding-bottom: 20px;
+}
+textarea{
+    width: 415px;
+    height: 100px;
+    border-radius: 3px;
+}
+
+
+input{
+    width: 200px;
+    height: 30px;
+}
+#message{
+    padding-bottom: 20px;
+}
+button{
+    background-color: white;
+    padding: 10px;
+    font-size: 10px;
+    border-radius: 5px;
+
+}
+.container{
+    position: relative;
+    padding: 20px;
+    background: linear-gradient(135deg, #3b3054, #7b60a8);
+}
+.content{
+    color: white;
+}
+.text{
+    background-color: rgba(255, 255, 255, 0.2);
+}
